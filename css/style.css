@@ -7,3 +7,85 @@
 html{
   font-family: 'Open Sans', sans-serif;
 }
+
+/* debug */
+
+.debug header{
+  background-color: lightgreen;
+}
+
+.debug .header-left,
+.debug .header-right{
+  background-color: green;
+}
+
+.debug .jumbotron{
+  background-color: lightskyblue;
+}
+
+.debug .container-big{
+  background-color: blue;
+  height:600px;
+}
+
+.debug .text-box{
+  height: 400px;
+  background-color: orange;
+}
+
+.debug .image-box{
+  height: 400px;
+  background-color: pink;
+}
+
+
+
+
+
+/* regole css */
+
+/* header */
+
+header{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left,
+.header-right{
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+header ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+/* main */
+
+.container-big{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.two-columns{
+  display: flex;
+}
+
+.jumbotron h1{
+  padding-top: 100px;
+}
+
+.jumbotron .text-box{
+  width: 40%;
+}
+
+.jumbotron .image-box{
+  width: 60%;
+}
