@@ -28,25 +28,38 @@ html{
   height:600px;
 }
 
-.debug .text-box{
+.debug .big-col{
   height: 400px;
   background-color: orange;
 }
 
-.debug .jumbotron img{
+.debug .img-col{
   height: 400px;
   background-color: pink;
 }
 
-.debug .container-small{
-  background-color: lightgoldenrodyellow;
-  height:1000px;
+.debug section{
+  background-color: yellow;
 }
 
-.debug .container-small section{
-  background-color: lightsalmon;
+.debug .billing{
+  height: 50px;
+  background-color: burlywood;
 }
 
+.debug .small-col{
+  height: 600px;
+  background-color: orangered;
+}
+
+.debug .business-plan.row{
+  height: 200px;
+  background-color: orangered;
+}
+
+.debug .feature.small-col{
+  height: 300px;
+}
 
 
 
@@ -82,27 +95,47 @@ header ul{
   margin: 0 auto;
 }
 
-.two-columns{
+.two-columns,
+.three-columns{
   display: flex;
+  gap: 30px;
 }
 
 .jumbotron h1{
   padding-top: 100px;
 }
 
-.jumbotron .text-box{
+.big-col{
   width: 40%;
 }
 
-.jumbotron img{
+.img-col{
   width: 60%;
 }
 
 .container-small{
-  max-width: 900px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
-.container-small h2{
-  margin-top: 200px;
+h2{
+  margin-top: 150px;
+}
+
+.small-col{
+  width: calc(100% / 3);
+}
+
+.business-plan.row{
+  margin: 30px 0 100px 0;
+}
+
+.three-columns.features{
+  gap:0;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.feature.small-col{
+  padding: 15px;
 }
