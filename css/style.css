@@ -33,11 +33,19 @@ html{
   background-color: orange;
 }
 
-.debug .image-box{
+.debug .jumbotron img{
   height: 400px;
   background-color: pink;
 }
 
+.debug .container-small{
+  background-color: lightgoldenrodyellow;
+  height:1000px;
+}
+
+.debug .container-small section{
+  background-color: lightsalmon;
+}
 
 
 
@@ -86,6 +94,15 @@ header ul{
   width: 40%;
 }
 
-.jumbotron .image-box{
+.jumbotron img{
   width: 60%;
+}
+
+.container-small{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-small h2{
+  margin-top: 200px;
 }
