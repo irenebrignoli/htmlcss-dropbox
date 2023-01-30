@@ -19,7 +19,7 @@ html{
   background-color: green;
 }
 
-.debug .jumbotron{
+.debug .light-blue{
   background-color: lightskyblue;
 }
 
@@ -28,7 +28,7 @@ html{
   height:600px;
 }
 
-.debug .big-col{
+.debug .text-col{
   height: 400px;
   background-color: orange;
 }
@@ -61,6 +61,29 @@ html{
   height: 300px;
 }
 
+.debug .clients-columns{
+  background-color: aqua;
+}
+
+.debug .square-block{
+  border: 1px solid black;
+  background-color: beige;
+}
+
+.debug .faq{
+  background-color: grey;
+  height: 300px;
+}
+
+.debug footer{
+  background-color: black;
+  height: 500px;
+}
+
+.debug footer .container-big{
+   background-color: azure;
+   height: 300px;
+}
 
 
 /* regole css */
@@ -95,8 +118,7 @@ header ul{
   margin: 0 auto;
 }
 
-.two-columns,
-.three-columns{
+.columns{
   display: flex;
   gap: 30px;
 }
@@ -105,7 +127,7 @@ header ul{
   padding-top: 100px;
 }
 
-.big-col{
+.text-col{
   width: 40%;
 }
 
@@ -126,16 +148,56 @@ h2{
   width: calc(100% / 3);
 }
 
+.row{
+  width: 100%;
+}
+
 .business-plan.row{
   margin: 30px 0 100px 0;
 }
 
-.three-columns.features{
-  gap:0;
-  flex-wrap: wrap;
-  margin: 0 -15px;
+.features .columns{
+  margin-bottom: 30px;
 }
 
-.feature.small-col{
-  padding: 15px;
+/* clients section */
+
+.clients-columns{
+  display: flex;
 }
+
+.square-col{
+  width: calc(100vw / 3);
+  height: calc(100vw / 3);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square-block{
+  width: 50%;
+}
+
+/* clients section - fine */
+
+section.light-blue h2{
+ margin:0;
+}
+
+.columns.row{
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+
+/* footer */
+
+footer{
+  margin-top: 150px;
+  padding: 100px 0 30px 0;
+}
+
+.footer-col{
+  width: calc(100% / 5);
+}
+
