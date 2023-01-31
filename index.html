@@ -14,23 +14,21 @@
   <!-- header -->
 
   <header>
-    <div class="header-left">
-      <a href="#">logo</a>
-      <ul>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-      </ul>
-    </div>
-
-    <div class="header-right">
-      <ul>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-      </ul>
-      <a href="#" class="btn">btn</a>
-    </div>
+    <nav class="d-flex space-between">
+        <ul class="d-flex">
+          <a href="#">logo</a>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+        </ul>
+  
+        <ul class="d-flex">
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <a href="#" class="btn">btn</a>
+        </ul>
+    </nav>
   </header>
 
   <!-- main -->
@@ -39,97 +37,95 @@
 
     <!-- jumbotron -->
 
-    <div class="jumbotron light-blue">
+    <section id="jumbotron" class="bg-blue">
       <div class="container-big">
         <h1>titolo1</h1>
-        <div class="columns">
-          <div class="text-col"></div>
-          <img class="img-col" src="" alt="">
+        <div class="d-flex">
+          <div class="w-30 col"></div>
+          <div class="w-70 col"></div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- sections -->
+    <!-- other sections -->
   
-    <section class="container-small">
+    <section id="business-plan" class="container-small margin-top-150">
       <h2>Titolo2</h2>
       <div class="billing"></div>
-      <div class="columns">
-        <div class="business-plan small-col"></div>
-        <div class="business-plan small-col"></div>
-        <div class="business-plan small-col"></div>
+      <div class="d-flex space-between">
+        <div class="w-30 col"></div>
+        <div class="w-30 col"></div>
+        <div class="w-30 col"></div>
       </div>
-      <div class="business-plan row"></div>
+      <div class="col margin-top-30"></div>
 
-      <div class="columns">
-        <div class="img-col"></div>
-        <div class="text-col"></div>
+      <div class="d-flex margin-top-100">
+        <div class="w-70 col"></div>
+        <div class="w-30 col"></div>
       </div>
     </section>
 
 
-    <section class="container-small">
+    <section id="features" class="container-small margin-top-150">
       <h2>Titolo2</h2>
-      <div class="features">
-        <div class="columns">
-          <div class="feature small-col"></div>
-          <div class="feature small-col"></div>
-          <div class="feature small-col"></div>
-        </div>
-        <div class="columns">
-          <div class="feature small-col"></div>
-          <div class="feature small-col"></div>
-          <div class="feature small-col"></div>
-        </div>
+      <div class="d-flex space-between wrap">
+        <div class="w-30 col"></div>
+        <div class="w-30 col"></div>
+        <div class="w-30 col"></div>
+        <div class="w-30 col margin-top-30"></div>
+        <div class="w-30 col margin-top-30"></div>
+        <div class="w-30 col margin-top-30"></div>
       </div>
     </section>
     
 
-    <section>
+    <section id="clients" class="margin-top-150">
       <div class="container-small">
         <h2>Titolo2</h2>
         <a href="#">link</a>
       </div>
-      <div class="clients-columns">
-        <div class="square-col">
-          <div class="square-block"></div>
-          <div class="square-block"></div>
-          <div class="square-block"></div>
-          <div class="square-block"></div>
+      <div class="d-flex">
+        <div class="d-flex square-col wrap">
+          <div class="w-50"></div>
+          <div class="w-50"></div>
+          <div class="w-50"></div>
+          <div class="w-50"></div>
         </div>
-        <div class="square-col"></div>
-        <div class="square-col">
-          <div class="square-block"></div>
-          <div class="square-block"></div>
-          <div class="square-block"></div>
-          <div class="square-block"></div>
+        <div class="d-flex square-col"></div>
+        <div class="d-flex square-col wrap">
+          <div class="w-50"></div>
+          <div class="w-50"></div>
+          <div class="w-50"></div>
+          <div class="w-50"></div>
         </div>
       </div>
     </section>
 
-    <section class="light-blue">
-      <div class="container-small columns row">
+    <section id="start-trial" class="bg-blue margin-top-150">
+      <div class="container-small d-flex space-between">
         <h2>Titolo2</h2>
         <a href="#" class="btn">Inizia la tua prova gratuita</a>
       </div>
     </section>
 
-    <section class="container-small">
+    <section id="faq" class="container-small margin-top-150">
       <h2>Titolo2</h2>
-      <div class="faq"></div>
+      <div class="col"></div>
     </section>
    
   </main>
 
   <!-- footer -->
 
-  <footer>
-    <div class="container-big columns"></div>
-    <div class="footer-col"></div>
-    <div class="footer-col"></div>
-    <div class="footer-col"></div>
-    <div class="footer-col"></div>
-    <div class="footer-col"></div>
+  <footer class="margin-top-150">
+    <div class="container-big d-flex space-between">
+      <div class="w-20 col"></div>
+      <div class="w-20 col"></div>
+      <div class="w-20 col"></div>
+      <div class="w-20 col"></div>
+      <div class="w-20 col"></div>
+    </div>
+    
   </footer>
 
 </body>
