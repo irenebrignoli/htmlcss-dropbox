@@ -21,6 +21,10 @@ p{
   line-height: 1.5;
 }
 
+h2{
+  font-size: 32px;
+}
+
 .btn{
   display: inline-block;
   padding: 10px 15px;

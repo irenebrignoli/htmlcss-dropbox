@@ -96,6 +96,28 @@ main{
   margin-bottom: 10px;
 }
 
+.select::before{
+  display: inline-block;
+  vertical-align: middle;
+  content:"";
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.select{
+  margin-right: 40px;
+}
+
+.slct-on::before{
+  box-shadow: inset 0px 0px 0px 5px #0061FF;
+}
+
+.slct-off::before{
+  box-shadow: inset 0px 0px 0px 2px lightgray;
+}
+
 .square-col{
   width: calc(100% / 3);
   height: calc(100vw / 3);
