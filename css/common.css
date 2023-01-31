@@ -25,6 +25,14 @@ h2{
   font-size: 32px;
 }
 
+h3{
+  font-size: 18px;
+}
+
+.bold{
+  font-weight: 700;
+}
+
 .btn{
   display: inline-block;
   padding: 10px 15px;
@@ -61,6 +69,14 @@ h2{
   background-color: #B4D0E7;
 }
 
+.margin-top-10{
+  margin-top: 10px;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+
 .margin-top-30{
   margin-top: 30px;
 }
@@ -79,4 +95,12 @@ h2{
 
 .wrap{
   flex-wrap: wrap;
+}
+
+hr{
+  width: 30%;
+  border: 0;
+  height: 0;
+  border-top: 1px solid #D0D0D3;
+  
 }

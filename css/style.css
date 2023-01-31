@@ -106,6 +106,10 @@ main{
   border-radius: 50%;
 }
 
+#business-plan{
+  font-size: 12px;
+}
+
 .select{
   margin-right: 40px;
 }
@@ -115,8 +119,50 @@ main{
 }
 
 .slct-off::before{
-  box-shadow: inset 0px 0px 0px 2px lightgray;
+  box-shadow: inset 0px 0px 0px 2px #D0D0D3;
 }
+
+/* business-plan columns */
+
+
+.plan-col{
+  border: 1px solid #D0D0D3;
+  align-items: stretch;
+}
+
+.plan-col i{
+  margin: 3px 8px 0 0;
+}
+
+.plan-col i.fa-check{
+  color:#0061FF;
+}
+
+.plan-title{
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #D0D0D3;
+}
+
+.plan-description{
+  padding: 20px;
+}
+
+.plan-description .btn{
+  width: 100%;
+  text-align: center;
+}
+
+.plan-description .link{
+  color:#0061FF
+}
+
+.plan-description .link{
+  color:#0061FF
+}
+
+
+/* business-plan columns - end*/
 
 .square-col{
   width: calc(100% / 3);
