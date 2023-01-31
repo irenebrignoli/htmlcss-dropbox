@@ -122,19 +122,19 @@ main{
   box-shadow: inset 0px 0px 0px 2px #D0D0D3;
 }
 
-/* business-plan columns */
+/* business-plan columns/row */
 
 
-.plan-col{
+.plan{
   border: 1px solid #D0D0D3;
   align-items: stretch;
 }
 
-.plan-col i{
+.plan i{
   margin: 3px 8px 0 0;
 }
 
-.plan-col i.fa-check{
+.plan i.fa-check{
   color:#0061FF;
 }
 
@@ -145,19 +145,23 @@ main{
 }
 
 .plan-description{
-  padding: 20px 20px 40px 20px;
+  padding: 30px 20px;
 }
 
-.plan-description .btn{
+.plan .btn{
   width: 100%;
   text-align: center;
 }
 
 .plan-description .link{
-  color:#0061FF
+  color:#0061FF;
 }
 
-/* business-plan columns - end*/
+.plan.row .w-30{
+  padding: 30px 20px;
+}
+
+/* business-plan columns/row - end*/
 
 .square-col{
   width: calc(100% / 3);
@@ -177,8 +181,6 @@ footer .container-big{
 
 
 /* colors 
-
-.bg-blue #B4D0E7
 
 
 trial #61082B
