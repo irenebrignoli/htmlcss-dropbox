@@ -145,7 +145,7 @@ main{
 }
 
 .plan-description{
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
 }
 
 .plan-description .btn{
@@ -156,11 +156,6 @@ main{
 .plan-description .link{
   color:#0061FF
 }
-
-.plan-description .link{
-  color:#0061FF
-}
-
 
 /* business-plan columns - end*/
 
