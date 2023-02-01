@@ -33,6 +33,10 @@ h3{
   font-size: 18px;
 }
 
+ul{
+  list-style: none;
+}
+
 .bold{
   font-weight: 700;
 }

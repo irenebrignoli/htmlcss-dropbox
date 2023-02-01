@@ -133,6 +133,12 @@ main{
   padding: 30px 20px;
 }
 
+.plan-description li{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
 .plan.row .w-30{
   padding: 30px 20px;
 }
@@ -245,10 +251,6 @@ footer{
 
 footer .container-big{
   gap: 30px;
-}
-
-footer ul{
-  list-style: none;
 }
 
 footer ul li{
