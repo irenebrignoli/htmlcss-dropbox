@@ -158,7 +158,21 @@ main{
   padding: 30px 20px;
 }
 
-/* business-plan  - end*/
+
+/* find-partner section */
+
+
+#find-partner .w-70{
+  padding-right: 40px;
+}
+
+/* features section */
+
+
+
+
+
+
 
 .square-col{
   width: calc(100% / 3);

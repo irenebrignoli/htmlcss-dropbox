@@ -36,7 +36,7 @@ h3{
 .btn{
   display: inline-block;
   padding: 10px 15px;
-  transition: all 0.5s;
+  transition: all 0.3s;
   text-decoration: none;
   text-align: center;
 }
@@ -48,6 +48,16 @@ h3{
 
 .btn-blue:hover{
   background-color: #3f89ff;
+}
+
+.btn-white{
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn-white:hover{
+  color: #0061FF;
+  border: 1px solid #0061FF;
 }
 
 .w-20{
