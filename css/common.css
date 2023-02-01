@@ -112,6 +112,11 @@ h3{
   flex-wrap: wrap;
 }
 
+.link-blue{
+  color:#0061FF;
+  display: inline-block;
+}
+
 hr{
   width: 30%;
   border: 0;
