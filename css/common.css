@@ -52,6 +52,7 @@ h3{
 
 .btn-white{
   color: #000;
+  background-color: #fff;
   border: 1px solid #000;
 }
 
@@ -117,7 +118,7 @@ h3{
   display: inline-block;
 }
 
-hr{
+.hr-small{
   width: 30%;
   border: 0;
   height: 0;

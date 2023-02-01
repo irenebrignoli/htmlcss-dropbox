@@ -19,11 +19,6 @@ html{
   height: 400px;
 }
 
-.debug .square-col > div{
-  background-color: orange;
-  border: 1px solid black;
-}
-
 .debug footer{
   background-color: black;
   height: 500px;
@@ -171,7 +166,7 @@ main{
   height: calc(100vw / 3);
 }
 
-.square-col img{
+.square-img img{
   position: relative;
   left: 50%;
   top: 50%;
@@ -179,31 +174,77 @@ main{
   filter:invert(1);
 }
 
+.square-img:hover{
+  box-shadow: 0px 0px 0px 10px inset rgba(255,255,255, 0.5 );    
+}
+
 #designit{
   background-color: #A2D39B;
   box-shadow: 0px 0px 0px 10px inset rgba(255,255,255, 0.5 );    
 }
 
+#asu{
+  background-color: #61082B;
+}
+
+#uf{
+  background-color: #0093CE;
+}
+
+#topps{
+  background-color: #FF1C1C;
+}
+
+#wbr{
+  background-color: #D5001F;
+}
+
+#hearst{
+  background-color: #B4D0E7;
+}
+
+#lonely-p{
+  background-color: #0D2481;
+}
+
+#c-channel{
+  background-color: #FFD830;
+}
+
+.square-col-center{
+  padding: 40px;
+  background-color: #F5F5F5;
+  overflow: auto;
+}
 
 
-/* colors 
+/* clients section */
+
+#start-trial .container-small{
+  align-items: flex-start;
+  padding: 100px 0;
+}
+
+#start-trial h2{
+  color: #61082B;
+}
+
+#start-trial .btn{
+  border:none;
+}
 
 
-trial #61082B
+/* faq section */
+
+#faq .d-flex{
+  align-items: center;
+}
+
+#faq i{
+  margin-right: 30px;
+}
 
 
-center #F5F5F5
-
-de #A2D39B
-asu #61082B
-florida #0093CE
-topps #FF1C1C
-bicyle #D5001F
-hearst #B4D0E7
-lonely planet #0D2481
-clear #FFD830
-
-*/
 
 
 
