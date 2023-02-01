@@ -236,11 +236,12 @@ main{
 
 /* faq section */
 
-#faq .d-flex{
+.faq-row{
   align-items: center;
+  padding: 30px 0;
 }
 
-#faq i{
+.faq-row i{
   margin-right: 30px;
 }
 
