@@ -54,19 +54,10 @@ ul{
   background-color: #0061FF;
 }
 
-.btn-blue:hover{
-  background-color: #3f89ff;
-}
-
 .btn-white{
   color: #000;
   background-color: #fff;
   border: 1px solid #000;
-}
-
-.btn-white:hover{
-  color: #0061FF;
-  border: 1px solid #0061FF;
 }
 
 .w-10{

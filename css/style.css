@@ -45,12 +45,9 @@ nav ul a{
   text-decoration: none;
 }
 
-nav ul li:hover{
-  box-shadow: 0px 2px 0px #0061FF;
-}
-
 
 /* main */
+
 
 main{
   padding-top: 80px;
@@ -212,7 +209,7 @@ main{
 }
 
 
-/* clients section */
+/* start-trial section */
 
 #start-trial .container-small{
   align-items: flex-start;
@@ -239,6 +236,29 @@ main{
   margin-right: 30px;
 }
 
+.faq-row p{
+  display: none;
+}
+
+.faq-row:hover p{
+  display: block;
+}
+
+.arrow-down{
+  display: block;
+}
+
+.arrow-up{
+  display: none;
+}
+
+.faq-row:hover .arrow-down{
+  display: none;
+}
+
+.faq-row:hover .arrow-up{
+  display: block;
+}
 
 /* footer */
 
@@ -273,3 +293,19 @@ footer .language{
 }
 
 
+/* BONUS 
+
+.btn-blue:hover{
+  background-color: #3f89ff;
+}
+
+.btn-white:hover{
+  color: #0061FF;
+  border: 1px solid #0061FF;
+}
+
+nav ul li:hover{
+  box-shadow: 0px 2px 0px #0061FF;
+}
+
+*/
